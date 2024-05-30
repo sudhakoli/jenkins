@@ -3,7 +3,7 @@ resource "aws_instance" "name" {
   instance_type = "t2.micro"
   key_name = "demo-ec2-saa"
   tags = {
-    name="dev"
+    name="meow"
   }
 }
 
